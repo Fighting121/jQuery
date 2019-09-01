@@ -125,10 +125,12 @@ div.box.pox {
 
 .red {
     color: red;
+    background-color: red;
 }
 
 .green {
     color: greenyellow;
+    background-color: greenyellow;
 }
 
 .bg {

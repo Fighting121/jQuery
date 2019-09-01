@@ -432,8 +432,104 @@ $(function(){
     // }, 6000);
 
     // 来回切换默认样式和指定样式
-    $('div').click(function(){
-        $(this).toggleClass('green bg');
+    // $('div').click(function(){
+    //     $(this).toggleClass('green bg');
+    // });
+
+    // 鼠标事件：页面所有元素均可触发
+    // click：单击鼠标按钮或按下回车键触发
+    // dblclick：双击鼠标按钮时触发
+    // mousedown：按下鼠标按键还未弹起时触发
+    // mouseup：释放鼠标按键时触发
+    // mouseover：鼠标移到元素上方时触发
+    // mouseout：鼠标从元素上方移除时触发
+    // mousemove：鼠标指针在元素上移动时触发
+
+    // 键盘事件
+    // keydown：按下键盘上的任意键触发，如果按住不放会持续触发
+    // keypress：按下键盘上的字符键触发，如果按住不放会持续触发
+    // keyup：释放键盘上的键触发
+
+    // HTML事件
+    // load：当页面完全加载后在windows上触发，或当框架集加载完毕后在框架集上触发
+    // unload：当页面完全卸载后在windows上触发，或当框架集卸载完毕后在框架集上触发
+    // change：当文本框内容改变且失去焦点后触发
+    // select：当选择文本框的一个或多个字符时触发
+    // focus：当页面或元素获得焦点时在windows或相关元素上触发
+    // blur：当页面或元素失去焦点时在windows或相关元素上触发
+    // scroll：当滚动带滚动条的元素时触发
+    // resize：当页面或框架尺寸变化时在windows或框架集上触发
+    // error：当脚本执行错误时触发
+
+});
+
+$(function(){
+    // $('div').bind('click', function(index){
+    //     alert('下标:' + index);
+    // });
+
+    // $('div').bind('mouseover mouseout', function(){
+    //     alert('1');
+    // });
+});
+
+$(function(){
+    // $('input').bind('click', function(){
+    //     alert('点击');
+    // });
+
+    // $('input').bind('click', fn);
+
+    // $('input').bind('mouseover mouseout', function(){
+    //     $('div').html(function(index, value){
+    //         return value + index;
+    //     });
+    // });
+
+    // 通过对象键值对绑定多个事件
+    // $('input').bind({
+    //     'mouseover': function(){
+    //         alert('移入');
+    //     },
+    //     'mouseout': function(){
+    //         alert('移出');
+    //     }
+    // });
+
+    // $('input').bind('click', fn);
+    // $('input').bind('click', fn1);
+    // $('input').unbind('click', fn);
+    // $('input').unbind('click');
+    // 删除全部事件
+    // $('input').unbind();
+
+    // $('input').bind('dblclick', function(){
+    //     alert('双击!');
+    // });
+    // $('input').unbind('dblclick');
+
+    // $('input').bind('mousedown', function(){
+    //     alert('按下鼠标按钮还未弹起时触发');
+    // });
+
+    // $('input').bind('mouseup', function(){
+    //     alert('释放鼠标按钮时触发');
+    // });
+
+    // $('window').bind('unload', function () {
+    //     alert('当页面完全卸载后在windows上触发或当框架集卸载完毕后在框架集上触发');
+    // });
+
+    $('window').resize(function(){
+        alert('1');
     });
 
 });
+
+function fn() {
+    alert('处理函数');
+}
+
+function fn1() {
+    alert('处理函数1');
+}
