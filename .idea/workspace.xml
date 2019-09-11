@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="34a1bc0e-ae84-4795-9fa5-24258db09bf7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/003/003.css" beforeDir="false" afterPath="$PROJECT_DIR$/003/003.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/003/003.html" beforeDir="false" afterPath="$PROJECT_DIR$/003/003.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/003/003.js" beforeDir="false" afterPath="$PROJECT_DIR$/003/003.js" afterDir="false" />
     </list>
@@ -18,11 +17,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/003/003.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="154" column="78" lean-forward="true" selection-start-line="154" selection-start-column="78" selection-end-line="154" selection-end-column="78" />
+            <state relative-caret-position="3285">
+              <caret line="219" column="113" selection-start-line="219" selection-start-column="113" selection-end-line="219" selection-end-column="113" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,26 +44,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/003/003.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="1980">
               <caret line="132" column="34" selection-start-line="132" selection-start-column="34" selection-end-line="132" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/003/003.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="514" column="27" lean-forward="true" selection-start-line="514" selection-start-column="27" selection-end-line="514" selection-end-column="27" />
+            <state relative-caret-position="414">
+              <caret line="918" column="12" lean-forward="true" selection-start-line="918" selection-start-column="12" selection-end-line="920" selection-end-column="10" />
               <folding>
                 <element signature="e#5453#5460#0" />
-                <marker date="1567353519490" expanded="true" signature="10651:10724" ph="..." />
+                <marker date="1568218721849" expanded="true" signature="10651:10724" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>toggle</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,11 +82,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="106" />
-    <option name="y" value="62" />
-    <option name="width" value="1200" />
-    <option name="height" value="685" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="167" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="717" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -136,17 +144,20 @@
       <workItem from="1566033660064" duration="11021000" />
       <workItem from="1566110273545" duration="8416000" />
       <workItem from="1567334400559" duration="4977000" />
+      <workItem from="1567852135664" duration="12368000" />
+      <workItem from="1568042356839" duration="2415000" />
+      <workItem from="1568206622066" duration="5651000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24414000" />
+    <option name="totallyTimeSpent" value="44848000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="106" y="62" width="1200" height="685" extended-state="0" />
+    <frame x="167" y="23" width="1280" height="717" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24936387" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22716442" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -169,6 +180,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/003/jquery-migrate-3.1.0.js" />
     <entry file="file://$PROJECT_DIR$/003/jquery-3.4.1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -180,26 +192,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/003/003.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="1980">
           <caret line="132" column="34" selection-start-line="132" selection-start-column="34" selection-end-line="132" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/003/003.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="514" column="27" lean-forward="true" selection-start-line="514" selection-start-column="27" selection-end-line="514" selection-end-column="27" />
-          <folding>
-            <element signature="e#5453#5460#0" />
-            <marker date="1567353519490" expanded="true" signature="10651:10724" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/003/003.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="154" column="78" lean-forward="true" selection-start-line="154" selection-start-column="78" selection-end-line="154" selection-end-column="78" />
+        <state relative-caret-position="3285">
+          <caret line="219" column="113" selection-start-line="219" selection-start-column="113" selection-end-line="219" selection-end-column="113" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003/003.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="918" column="12" lean-forward="true" selection-start-line="918" selection-start-column="12" selection-end-line="920" selection-end-column="10" />
+          <folding>
+            <element signature="e#5453#5460#0" />
+            <marker date="1568218721849" expanded="true" signature="10651:10724" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
