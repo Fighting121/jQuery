@@ -512,6 +512,7 @@ $(function(){
     //     alert('按下鼠标按钮还未弹起时触发');
     // });
 
+<<<<<<< Updated upstream
     // $('input').bind('mouseup', function(){
     //     alert('释放鼠标按钮时触发');
     // });
@@ -919,4 +920,11 @@ $(function(){
     // $(document).bind('click', function (e) {
     //     alert('document')
     // });
+=======
+    //  设置某个元素行内CSS样式
+    // $('div').css('color', 'blue');
+
+    $('div').css({'color':'red', 'font-size':'20pt'});
+
+>>>>>>> Stashed changes
 });
