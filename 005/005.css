@@ -1,0 +1,22 @@
+#box {
+    width: 100px;
+    height: 100px;
+    background: aqua;
+    position: absolute;
+}
+
+#pox {
+    width: 100px;
+    height: 100px;
+    background: blueviolet;
+    position: absolute;
+    top: 150px;
+}
+
+.test {
+    padding: 5px;
+    margin-right: 5px;
+    background: green;
+    float: left;
+    display: none;
+}
